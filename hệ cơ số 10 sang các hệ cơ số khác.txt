@@ -1,0 +1,14 @@
+int n = 255;
+
+// Chuyển sang hệ nhị phân (base 2)
+String binary = Integer.toBinaryString(n);
+
+// Chuyển sang hệ bát phân (base 8)
+String octal = Integer.toOctalString(n);
+
+// Chuyển sang hệ thập lục phân (base 16)
+String hex = Integer.toHexString(n);
+
+System.out.println("Hệ 2: " + binary);
+System.out.println("Hệ 8: " + octal);
+System.out.println("Hệ 16: " + hex);
