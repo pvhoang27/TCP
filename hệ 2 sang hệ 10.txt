@@ -1,0 +1,1 @@
+int soThapPhan = Integer.parseInt(soNhiPhan, 2);
