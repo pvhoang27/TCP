@@ -1,0 +1,10 @@
+Giả sử bạn có biến: int so = 123;
+
+1. Dùng String.valueOf()
+String chuoi1 = String.valueOf(so);
+
+2. Dùng Integer.toString()
+String chuoi2 = Integer.toString(so);
+
+3. Dùng cách nối chuỗi rỗng
+String chuoi3 = "" + so;
