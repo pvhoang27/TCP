@@ -21,7 +21,7 @@ import java.net.Socket;
  *
  * @author hoang
  */
-public class B21DCCN017_KlkRDIwR {
+public class B21DCCN017_KlkRDIwR_LoaiBoKyTu {
     public static void main(String[] args) throws  Exception{
         Socket socket = new Socket("203.162.10.109",2206);
         BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));

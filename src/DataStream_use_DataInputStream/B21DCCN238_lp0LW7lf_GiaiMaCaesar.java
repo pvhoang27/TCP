@@ -10,7 +10,7 @@ import java.util.*;
  *
  * @author hoang
  */
-public class B21DCCN238_lp0LW7lf {
+public class B21DCCN238_lp0LW7lf_GiaiMaCaesar {
     
     public static void main(String[] args) throws Exception{
         Socket socket = new Socket("203.162.10.109", 2207);

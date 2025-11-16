@@ -13,7 +13,7 @@ import java.io.OutputStreamWriter;
 import java.net.Socket;
 import java.util.HashSet;
 
-public class B21DCCN393_Q7SDdTfg {
+public class B21DCCN393_Q7SDdTfg_LoaiBoKyTu {
     //ham xu ly de bai
     static String handle(String s){
         StringBuilder r = new StringBuilder();

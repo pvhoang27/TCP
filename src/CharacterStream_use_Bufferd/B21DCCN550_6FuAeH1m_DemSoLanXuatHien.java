@@ -17,7 +17,7 @@ import java.io.*;
  *
  * @author hoang
  */
-public class B21DCCN550_6FuAeH1m {
+public class B21DCCN550_6FuAeH1m_DemSoLanXuatHien {
     public static void main(String[] args) throws Exception{
         Socket socket = new Socket("203.162.10.109",2208);
         BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
@@ -33,14 +33,17 @@ public class B21DCCN550_6FuAeH1m {
         
         String result  = "";
         int [] cnt = new int[256];
+        // dau tien la dem so lan 
         for(int i = 0 ; i < s.length(); i++){
            char c = s.charAt(i);
            cnt[c] ++;
            
   
         }
+        // in ra phan tu do + so lan xuat hien
         for(int i = 0 ; i < s.length(); i++){
             char c = s.charAt(i);
+            // neu so lan > 1 thi bat dau in ra 
             if(cnt[c] > 1 ){
                result += c + ":" +cnt[c] +",";
                cnt[c] = 0; // reset no de ko in lai

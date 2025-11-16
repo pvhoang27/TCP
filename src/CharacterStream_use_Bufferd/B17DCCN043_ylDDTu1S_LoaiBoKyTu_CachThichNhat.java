@@ -17,7 +17,7 @@ import java.io.*;
  *
  * @author hoang
  */
-public class B17DCCN043_ylDDTu1S_LoaiBoKyTu {
+public class B17DCCN043_ylDDTu1S_LoaiBoKyTu_CachThichNhat {
     public static void main(String[] args) throws  Exception{
         Socket socket = new Socket("203.162.10.109",2208);
         BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
@@ -30,7 +30,7 @@ public class B17DCCN043_ylDDTu1S_LoaiBoKyTu {
         
         String s = in.readLine();
         System.out.println(s);
-        
+        //tao ra 1 mang boolean check xem no da xuat hien chua 
         boolean[] used = new boolean[256];
         String result = "";
         for(int i = 0 ; i < s.length(); i++){

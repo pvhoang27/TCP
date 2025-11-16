@@ -12,7 +12,7 @@ import java.net.Socket;
  *
  * @author hoang
  */
-public class B21DCCN393_8Ci4bRo4 {
+public class B21DCCN393_8Ci4bRo4_He10sangHe2 {
     public static void main(String[] args) throws Exception{
         // khai bao cong + luong
         Socket socket = new Socket("203.162.10.109", 2207);

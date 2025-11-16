@@ -28,7 +28,7 @@ import java.net.Socket;
  *
  * @author hoang
  */
-public class t5VLxpf0_B21DCCN132 {
+public class t5VLxpf0_B21DCCN132_suaLaptop {
     // hàm xử lý sai tên 
     //Tên sản phẩm bị đổi ngược từ đầu tiên và từ cuối cùng, ví dụ: “lenovo thinkpad T520” bị chuyển thành “T520 thinkpad lenovo”
     public static String xuLyTen(String tenSai) {

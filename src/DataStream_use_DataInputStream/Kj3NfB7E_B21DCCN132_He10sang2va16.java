@@ -17,7 +17,7 @@ import java.net.Socket;
  *
  * @author hoang
  */
-public class Kj3NfB7E_B21DCCN132 {
+public class Kj3NfB7E_B21DCCN132_He10sang2va16 {
     public static void main(String[] args) throws Exception{
         Socket socket = new Socket("203.162.10.109", 2207);
         DataInputStream in = new DataInputStream(socket.getInputStream());

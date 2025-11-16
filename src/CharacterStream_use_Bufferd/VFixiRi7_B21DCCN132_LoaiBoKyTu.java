@@ -20,7 +20,7 @@ import java.net.Socket;
  *
  * @author hoang
  */
-public class VFixiRi7_B21DCCN132 {
+public class VFixiRi7_B21DCCN132_LoaiBoKyTu {
     public static void main(String[] args) throws Exception{
         
         // khai báo socket và phuong thuc 

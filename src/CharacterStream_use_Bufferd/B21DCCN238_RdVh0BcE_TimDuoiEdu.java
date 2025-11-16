@@ -22,7 +22,7 @@ import java.nio.Buffer;
  *
  * @author hoang
  */
-public class B21DCCN238_RdVh0BcE {
+public class B21DCCN238_RdVh0BcE_TimDuoiEdu {
     public static void main(String[] args) throws Exception{
         Socket socket = new Socket("203.162.10.109",2208);
         BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
@@ -48,6 +48,7 @@ public class B21DCCN238_RdVh0BcE {
             p = p.trim();
             if(p.endsWith(".edu")){
 //                result += p; 
+                // neu da co phan tu thi them dau phay vao
                 if (!result.isEmpty()) result += ", "; 
                 result += p; 
             } 

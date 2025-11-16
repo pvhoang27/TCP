@@ -15,7 +15,7 @@ import java.io.*;
  *
  * @author hoang
  */
-public class B21DCCN550_SB7M2TvW {
+public class B21DCCN550_SB7M2TvW_He10sang2va16 {
     public static void main(String[] args) throws Exception{
         Socket socket = new Socket("203.162.10.109",2207);
         DataInputStream in = new DataInputStream(socket.getInputStream());
