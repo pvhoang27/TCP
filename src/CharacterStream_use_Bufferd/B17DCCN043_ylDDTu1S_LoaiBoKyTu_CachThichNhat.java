@@ -49,7 +49,6 @@ public class B17DCCN043_ylDDTu1S_LoaiBoKyTu_CachThichNhat {
         out.write(result);
         out.newLine();
         out.flush();
-        
-       
+         
     }
 }
