@@ -42,12 +42,15 @@ public class jHma50N3_B21DCCN132_DayCollazt {
         Long n = Long.parseLong(received.trim());
         int cnt = 0 ;
         String a = "";
-        while (true) {            
+        while (true) { 
+            // lan dau chua co phan tu nao thi cu cong n vao da
             if(cnt == 0 )  a = a + n;
             else  a = a + " " + n;
             cnt ++;
             
+            // neu n == 1 thi dung lai ngay
             if( n == 1 ) break;
+            // xu ly theo day collazt thoi 
             if(n % 2 == 0 )  n = n / 2 ;
             else n = 3*n + 1;
         }

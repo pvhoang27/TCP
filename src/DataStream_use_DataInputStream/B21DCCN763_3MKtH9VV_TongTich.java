@@ -37,7 +37,7 @@ public class B21DCCN763_3MKtH9VV_TongTich  {
         int  tich = a * b;
         
         System.out.println(sum+ " "+ tich);
-        
+        // khi gui ket qua phai viet rieng tung dong vao write+kieu du lieu do 
         out.writeInt(sum);
         out.writeInt(tich);
         

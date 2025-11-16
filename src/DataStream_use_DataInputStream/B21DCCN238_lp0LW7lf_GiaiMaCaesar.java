@@ -33,12 +33,14 @@ public class B21DCCN238_lp0LW7lf_GiaiMaCaesar {
             
             // xu ly chu hoa
             if(Character.isUpperCase(c)){
+                // nho doan quan trong nay nhe 
                 char ch = (char ) ('A'+ (c - 'A' - s + 26) % 26 );
                 a += ch ;
             }
             // cong them 26 de no het am ? + cong them 26 cung ko thay doi ket qua vi ki tu co 26 ki tu thoi
             // xu ly chu thuong 
             else if(Character.isLowerCase(c)){
+                // nho doan quan trong nay nhe 
                 char ch = (char ) ('a'+ (c - 'a' - s + 26 ) % 26 );
                 a += ch ;
             }
