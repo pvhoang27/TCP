@@ -8,3 +8,4 @@ String chuoi2 = Integer.toString(so);
 
 3. Dùng cách nối chuỗi rỗng
 String chuoi3 = "" + so;
+
