@@ -13,7 +13,7 @@
 //2)	Nhận một đối tượng là thể hiện của lớp Laptop từ server
 //3)	Sửa các thông tin sai của sản phẩm về tên và số lượng.  Gửi đối tượng vừa được sửa sai lên server
 //4)	Đóng socket và kết thúc chương trình.
-package ObjectStream_use_ObjectInputStream;
+package luyen_tap;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;

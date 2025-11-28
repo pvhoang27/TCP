@@ -7,7 +7,7 @@
 //    b. Nhận dữ liệu từ server là một chuỗi các giá trị số nguyên được phân tách bởi ký tự ",". Ví dụ: 5,10,20,25,50,40,30,35.
 //    c. Tìm chuỗi con tăng dần dài nhất và gửi độ dài của chuỗi đó lên server theo format "chuỗi tăng dài nhất; độ dài". Ví dụ: 5,10,20,25,50;5
 //    d. Đóng kết nối và kết thúc chương trình.
-package ByteStream_use_InputStream;
+package luyen_tap;
 
 import java.io.InputStream;
 import java.io.OutputStream;
