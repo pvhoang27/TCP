@@ -4,7 +4,7 @@
 //c.	Loại bỏ ký tự đặc biệt, số, ký tự trùng và giữ nguyên thứ tự xuất hiện của ký tự. Gửi chuỗi đã được xử lý lên server.
 //d.	Đóng kết nối và kết thúc chương trình
 
-package CharacterStream_use_Bufferd;
+package luyen_tap;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

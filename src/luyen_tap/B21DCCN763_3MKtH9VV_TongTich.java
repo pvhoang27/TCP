@@ -7,7 +7,7 @@
 //b.	Nhận lần lượt hai số nguyên a và b từ server
 //c.	Thực hiện tính toán tổng, tích và gửi lần lượt từng giá trị theo đúng thứ tự trên lên server
 //d.	Đóng kết nối và kết thúc
-package DataStream_use_DataInputStream;
+package luyen_tap;
 
 import java.net.*;
 import  java.io.*;

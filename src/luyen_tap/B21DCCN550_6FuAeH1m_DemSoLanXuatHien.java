@@ -9,7 +9,7 @@
 //c.	Liệt kê các ký tự (là chữ hoặc số) xuất hiện nhiều hơn một lần trong chuỗi và số lần xuất hiện của chúng và gửi lên server
 //Ví dụ: d:2,O:2,o:2,2:3,
 //d.	Đóng kết nối và kết thúc chương trình.
-package CharacterStream_use_Bufferd;
+package luyen_tap;
 import java.net.*;
 import java.util.*;
 import java.io.*;

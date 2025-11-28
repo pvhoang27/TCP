@@ -7,7 +7,7 @@
 //b. Nhận một số nguyên hệ thập phân từ server. Ví dụ:: 15226.
 //c. Chuyển đổi số nguyên nhận được sang hệ nhị phân và thập lục phân, ghép thành chuỗi và gửi lên server. Ví dụ: 15226 sẽ thành "11101101111010;3B7A"
 //d. Đóng kết nối: Kết thúc chương trình sau khi gửi kết quả chuyển đổi.
-package DataStream_use_DataInputStream;
+package luyen_tap;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
