@@ -7,7 +7,7 @@
 //b. Nhận một số nguyên hệ thập phân từ server. Ví dụ: 45
 //c. Chuyển đổi số nguyên nhận được sang hệ nhị phân và gửi chuỗi kết quả này lại cho server. Ví dụ: 45 sẽ thành chuỗi "101101"
 //d. Đóng kết nối và kết thúc chương trình.
-package DataStream_use_DataInputStream;
+package kiem_tra;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

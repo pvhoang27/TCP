@@ -9,7 +9,7 @@
 //c.	Tìm kiếm các tên miền .edu và gửi lên server
 //Ví dụ: MdpIzhxDVtTFTF.edu, 4hXfJe9giAA.edu
 //d.	Đóng kết nối và kết thúc chương trình.
-package CharacterStream_use_Bufferd;
+package luyen_tap;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
