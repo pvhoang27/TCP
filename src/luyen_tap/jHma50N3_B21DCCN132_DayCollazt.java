@@ -14,7 +14,7 @@
 //        Lặp lại quá trình trên cho đến khi n=1, tại đó dừng thuật toán.
 //Kết quả là một dãy số liên tiếp, bắt đầu từ n ban đầu, kết thúc tại 1 và độ dài của chuỗi theo format "chuỗi kết quả; độ dài"  Ví dụ: kết quả với n = 7 thì dãy: 7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1; 17;  
 //d.	Đóng kết nối và kết thúc chương trình.
-package ByteStream_use_InputStream;
+package luyen_tap;
 
 import java.io.InputStream;
 import java.io.OutputStream;
