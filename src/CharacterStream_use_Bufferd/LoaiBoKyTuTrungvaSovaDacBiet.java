@@ -15,7 +15,7 @@ import java.net.Socket;
  *
  * @author hoang
  */
-public class LocKyTu {
+public class LoaiBoKyTuTrungvaSovaDacBiet {
     public static void main(String[] args) throws Exception{
         Socket socket = new Socket("203.162.10.109",2208 );
         BufferedWriter out = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
